@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_vendor_adjustment_request_form" model="ir.ui.view">
+            <field name="name">vendor.adjustment.request.form</field>
+            <field name="model">vendor.adjustment.request</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <group>
+                            <field name="order_id" required="1"/>
+                            <field name="adjustment_detail" required="1"/>
+                            <field name="comment"/>
+                        </group>
+                    </group>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

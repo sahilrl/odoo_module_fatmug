@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="vendor_forecast_tree_view" model="ir.ui.view">
+          <field name="name">Forecast</field>
+          <field name="model">vendor.forecast</field>
+          <field name="arch" type="xml">
+            <tree>
+                <field name="product_id"/>
+                <field name="expected_quantity"/>
+                <field name="forecast_date"/>
+            </tree>
+          </field>
+        </record>
+    </data>
+</odoo>
